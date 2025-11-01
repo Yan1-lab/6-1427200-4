@@ -13,29 +13,3 @@ body {
 .scrollbar-hide::-webkit-scrollbar {
     display: none; /* Para Chrome, Safari y Opera */
   }
-
-  /*Para Celular*/
-
-  @media screen and (max-width: 768px) {
- 
-  main {
-    flex-direction: column;
-  }
-
-  aside {
-    display: none;
-  }
-
-  section {
-    width: 100%;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-  }
-
-  body {
-    font-size: 16px;
-  }
-}
